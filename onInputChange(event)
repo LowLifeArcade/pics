@@ -1,0 +1,26 @@
+onInputChange(event)
+
+this gives you event.target.value which is whatever the user put in to say a search bar or something
+
+callbacks (skullians not scallians)
+
+this.onInputChange is used without the () because for callbacks we give an event listener a refernece to the function so it can use it later when needed 
+
+onChange is a props for callback and event handling
+
+onClick
+onChange
+onSubmit
+
+are examples of these
+
+when naming a callback handler function you do
+onInputChange is something we created.
+on and then Input for <input> and Change for input field changing.
+
+callbacks can be called whatever but props like onChange must be called that.
+
+we want controlled elements so we refactor uncontrolled elements like the searchbar
+
+controlled means we store the value in the component and not the DOM
+
