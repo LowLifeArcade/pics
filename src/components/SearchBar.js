@@ -8,7 +8,7 @@ class SearchBar extends React.Component {
     event.preventDefault();
 
     // do do bellow we need an arrow function so it shoots and sticks ".this" to the class
-    console.log(this.state.term)
+    this.props.onSubmit(this.state.term);
   }
 
   render() {

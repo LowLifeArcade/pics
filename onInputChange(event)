@@ -24,3 +24,12 @@ we want controlled elements so we refactor uncontrolled elements like the search
 
 controlled means we store the value in the component and not the DOM
 
+
+async and axios
+
+axios uses .then (() => {
+
+})
+
+async instead is put infront of the function name and then we put the function action in a const
+
